@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Lokesh's BTech Electrical — GATE + Startup Grind Planner</title>
+  <style>
+    @page { size: A4; margin: 15mm; }
+    * { box-sizing: border-box; }
+    body { 
+      font-family: 'Segoe UI', Arial, sans-serif; 
+      max-width: 1100px; 
+      margin: 0 auto; 
+      padding: 20px; 
+      color: #1a1a2e;
+      line-height: 1.6;
+    }
+    h1 { 
+      color: #1a5276; 
+      text-align: center; 
+      font-size: 28px;
+      margin-bottom: 5px;
+    }
+    .subtitle {
+      text-align: center;
+      color: #555;
+      font-size: 14px;
+      margin-bottom: 25px;
+    }
+    h2 { 
+      color: #1a5276; 
+      border-bottom: 3px solid #1a5276; 
+      padding-bottom: 6px;
+      margin-top: 35px;
+      font-size: 20px;
+    }
+    h3 {
+      color: #2874a6;
+      margin-top: 20px;
+      font-size: 16px;
+      border-left: 4px solid #2874a6;
+      padding-left: 10px;
+    }
+    table { 
+      border-collapse: collapse; 
+      width: 100%; 
+      margin: 15px 0; 
+      font-size: 13px;
+    }
+    th { 
+      background: #1a5276; 
+      color: white; 
+      padding: 10px; 
+      text-align: left;
+      font-weight: 600;
+    }
+    td { 
+      border: 1px solid #d5d8dc; 
+      padding: 8px; 
+      vertical-align: top;
+    }
+    tr:nth-child(even) { background: #f4f6f7; }
+    .priority-high { color: #c0392b; font-weight: bold; }
+    .priority-med { color: #d68910; font-weight: bold; }
+    .priority-low { color: #27ae60; font-weight: bold; }
+    .tips { 
+      background: #eafaf1; 
+      padding: 20px; 
+      border-radius: 8px; 
+      margin-top: 30px; 
+      border-left: 5px solid #27ae60;
+    }
+    .tips h3 { color: #1e8449; margin-top: 0; border: none; padding: 0; }
+    .tips li { margin: 8px 0; }
+    .warning {
+      background: #fdf2e9;
+      padding: 15px;
+      border-radius: 8px;
+      border-left: 5px solid #e67e22;
+      margin: 20px 0;
+    }
+    .warning h3 { color: #d35400; margin-top: 0; border: none; padding: 0; }
+    .daily-template {
+      background: #ebf5fb;
+      padding: 15px;
+      border-radius: 8px;
+      border-left: 5px solid #2874a6;
+      margin: 20px 0;
+    }
+    .daily-template h3 { color: #1a5276; margin-top: 0; border: none; padding: 0; }
+    .track-gate { background: #fadbd8; padding: 2px 6px; border-radius: 4px; font-weight: bold; color: #922b21; }
+    .track-startup { background: #d5f5e3; padding: 2px 6px; border-radius: 4px; font-weight: bold; color: #1e8449; }
+    .track-project { background: #fef9e7; padding: 2px 6px; border-radius: 4px; font-weight: bold; color: #9a7d0a; }
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      color: #888;
+      font-size: 12px;
+      border-top: 1px solid #ddd;
+      padding-top: 20px;
+    }
+    .page-break { page-break-after: always; }
+    ul { margin: 8px 0; padding-left: 20px; }
+    li { margin: 4px 0; }
+    .metric-box {
+      display: inline-block;
+      background: #1a5276;
+      color: white;
+      padding: 8px 15px;
+      border-radius: 6px;
+      margin: 5px 5px 5px 0;
+      font-size: 12px;
+    }
+  </style>
+<base target="_blank">
+</head>
+<body>
+
+  <h1>⚡ BTech Electrical — GATE + Startup Grind Planner</h1>
+  <p class="subtitle"><b>By Lokesh Wadgaonkar</b> | Tier 2/3 College → IIT M.Tech → EV/Energy Startup</p>
+
+  <div class="warning">
+    <h3>🔥 The Non-Negotiable Rules</h3>
+    <ol>
+      <li><b>From Sem 2:</b> Solve at least <b>5 GATE previous year questions every single day</b>. No exceptions.</li>
+      <li><b>From Sem 4:</b> Maintain a <b>GATE error notebook</b>. Every wrong answer gets analyzed.</li>
+      <li><b>From Sem 5:</b> Give <b>one full mock test every Sunday</b>. Treat it like the real exam.</li>
+      <li><b>Every semester:</b> Build <b>one project</b> that uses your GATE knowledge. This is your startup portfolio.</li>
+      <li><b>No zero days:</b> Even 30 minutes = 5 GATE math problems. Momentum > intensity.</li>
+      <li><b>Daily grind:</b> 5–6 hours self-study on top of college. <b>Consistency beats intensity.</b></li>
+    </ol>
+  </div>
+
+  <div class="daily-template">
+    <h3>⏰ Daily Template (Non-Negotiable)</h3>
+    <table>
+      <tr><th>Time</th><th>Activity</th><th>Track</th></tr>
+      <tr><td>5:30 – 7:30 AM</td><td>GATE subject theory (fresh mind for hard concepts)</td><td><span class="track-gate">GATE</span></td></tr>
+      <tr><td>College hours</td><td>Attend only if mandatory. Use free time for GATE notes.</td><td><span class="track-gate">GATE</span></td></tr>
+      <tr><td>5:00 – 6:00 PM</td><td>College assignment / homework (quick finish)</td><td>—</td></tr>
+      <tr><td>6:00 – 7:30 PM</td><td>GATE problem solving (previous year questions)</td><td><span class="track-gate">GATE</span></td></tr>
+      <tr><td>7:30 – 8:30 PM</td><td>Startup skill (C / Python / Arduino / Simulink)</td><td><span class="track-startup">STARTUP</span></td></tr>
+      <tr><td>8:30 – 9:30 PM</td><td>Project work / GitHub push / documentation</td><td><span class="track-project">PROJECT</span></td></tr>
+      <tr><td>Sunday</td><td>3-hour mock test (from Sem 5) + Project deep work</td><td><span class="track-gate">GATE</span> + <span class="track-project">PROJECT</span></td></tr>
+    </table>
+    <p><b>Total:</b> 5.5–6 hours/day, 7 days a week.</p>
+  </div>
+
+  <div class="page-break"></div>
+
+  <h2>📘 Pre-Semester 1 (Summer Before College)</h2>
+  <p><b>Duration:</b> 60 days | <b>Daily Hours:</b> 5 hrs | <b>Goal:</b> Foundation for both GATE and Startup</p>
+
+  <table>
+    <tr>
+      <th>Skill</th>
+      <th>Priority</th>
+      <th>Daily Hours</th>
+      <th>Steps</th>
+      <th>Source</th>
+    </tr>
+    <tr>
+      <td>Engineering Math — Calculus & Matrices</td>
+      <td class="priority-high">🔴 GATE</td>
+      <td>1.5 hrs</td>
+      <td>1. NPTEL lectures (IIT Madras)<br>2. Solve 10 problems daily<br>3. Formula sheet creation</td>
+      <td>NPTEL + B.S. Grewal + 3Blue1Brown</td>
+    </tr>
+    <tr>
+      <td>C Programming</td>
+      <td class="priority-high">🔴 STARTUP</td>
+      <td>1.5 hrs</td>
+      <td>1. NPTEL lectures (IIT Kharagpur)<br>2. Solve 3 problems daily<br>3. Build circuit calculator in C</td>
+      <td>NPTEL + HackerRank + CodeWithHarry</td>
+    </tr>
+    <tr>
+      <td>Basic Circuit Theory</td>
+      <td class="priority-high">🔴 GATE + STARTUP</td>
+      <td>1.0 hr</td>
+      <td>1. NPTEL Network Theory<br>2. KCL, KVL, Theorems, AC basics<br>3. Simulate in Multisim</td>
+      <td>NPTEL + Neso Academy + Multisim</td>
+    </tr>
+    <tr>
+      <td>Linux Basics</td>
+      <td class="priority-low">🟢 STARTUP</td>
+      <td>0.5 hr</td>
+      <td>1. Install Ubuntu VM<br>2. Complete Linux Journey<br>3. Write 5 shell scripts</td>
+      <td>linuxjourney.com + Ubuntu VM</td>
+    </tr>
+    <tr>
+      <td><b>Weekend Project</b></td>
+      <td class="priority-high">🔴 PROJECT</td>
+      <td>2.0 hrs</td>
+      <td><b>C-based Circuit Calculator</b> — takes resistor values, calculates equivalent, series/parallel, voltage divider. Push to GitHub.</td>
+      <td>Self + GitHub</td>
+    </tr>
+  </table>
+
+  <p><b>Semester 1 GATE Target:</b> Solve 50 GATE previous year questions from <b>Electric Circuits</b>.</p>
+
+  <div class="page-break"></div>
+
+  <h2>📗 Semester 1</h2>
+  <p><b>College subjects:</b> Math, Physics, Basic Electrical, English, Graphics</p>
+  <p><b>Self-study:</b> 5 hrs/day</p>
+
+  <table>
+    <tr>
+      <th>Skill</th>
+      <th>Track</th>
+      <th>Duration</th>
+      <th>Daily Hours</th>
+      <th>Steps</th>
+      <th>Source</th>
+    </tr>
+    <tr>
+      <td>Engineering Math (Calculus, Linear Algebra)</td>
+      <td><span class="track-gate">GATE</span></td>
+      <td>Ongoing</td>
+      <td>1.5 hrs</td>
+      <td>1. NPTEL lectures<br>2. Solve 10 problems daily<br>3. Formula sheet per topic</td>
+      <td>NPTEL (IIT Madras) + B.S. Grewal</td>
+    </tr>
+    <tr>
+      <td>Electric Circuits (Theorems, Transients, AC)</td>
+      <td><span class="track-gate">GATE</span></td>
+      <td>Ongoing</td>
+      <td>1.5 hrs</td>
+      <td>1. NPTEL Network Theory<br>2. Solve 5 GATE PYQs daily<br>3. Thevenin/Norton drills</td>
+      <td>NPTEL + GATE Academy + Made Easy notes</td>
+    </tr>
+    <tr>
+      <td>C Programming (Advanced)</td>
+      <td><span class="track-startup">STARTUP</span></td>
+      <td>60 days</td>
+      <td>1.0 hr</td>
+      <td>1. Pointers, Arrays, Structures<br>2. Solve HackerRank medium<br>3. File I/O mini project</td>
+      <td>NPTEL + HackerRank + Let Us C</td>
+    </tr>
+    <tr>
+      <td>Linux + Shell Scripting</td>
+      <td><span class="track-startup">STARTUP</span></td>
+      <td>30 days</td>
+      <td>0.5 hr</td>
+      <td>1. Linux Journey completion<br>2. 5 shell scripts<br>3. Git basics</td>
+      <td>linuxjourney.com + GitHub Learning Lab</td>
+    </tr>
+    <tr>
+      <td><b>Semester Project</b></td>
+      <td><span class="track-project">PROJECT</span></td>
+      <td>Weekends</td>
+      <td>0.5 hr</td>
+      <td><b>Digital Voltmeter Simulator</b> — C program reads ADC values, converts to voltage, logs to file. Mimics embedded system.</td>
+      <td>Self + GitHub</td>
+    </tr>
+  </table>
+
+  <p><b>GATE PYQ Count:</b> 50+ from Electric Circuits | <b>Math:</b> 15% weightage — highest in GATE EE.</p>
+
+  <div class="page-break"></div>
+
+  <h2>📙 Semester 2</h2>
+  <p><b>College subjects:</b> Math II, Chemistry, Programming, Basic Mechanical</p>
+  <p><b>Self-study:</b> 5.5 hrs/day</p>
+
+  <table>
+    <tr>
+      <th>Skill</th>
+      <th>Track</th>
+      <th>Duration</th>
+      <th>Daily Hours</th>
+      <th>Steps</th>
+      <th>Source</th>
+    </tr>
+    <tr>
+      <td>Engineering Math (Diff Eq, Complex, Probability)</td>
+      <td><span class="track-gate">GATE</span></td>
+      <td>Ongoing</td>
+      <td>1.0 hr</td>
+      <td>1. NPTEL lectures<br>2. 10 problems daily<br>3. Laplace transform mastery</td>
+      <td>NPTEL + B.S. Grewal</td>
+    </tr>
+    <tr>
+      <td>Digital Electronics (Boolean, K-map, Counters, FSM)</td>
+      <td><span class="track-gate">GATE</span></td>
+      <td>Ongoing</td>
+      <td>1.5 hrs</td>
+      <td>1. NPTEL Digital Electronics<br>2. Solve 5 GATE PYQs daily<br>3. Truth table to circuit design</td>
+      <td>NPTEL + GATE Academy</td>
+    </tr>
+    <tr>
+      <td>Signals & Systems (LT, FT, ZT, Convolution)</td>
+      <td><span class="track-gate">GATE</span></td>
+      <td>Ongoing</td>
+      <td>1.5 hrs</td>
+      <td>1. NPTEL Signals & Systems (IIT Bombay)<br>2. Properties + transform pairs<br>3. 5 GATE PYQs daily</td>
+      <td>NPTEL (IIT Bombay) + Oppenheim</td>
+    </tr>
+    <tr>
+      <td>Python Programming</td>
+      <td><span class="track-startup">STARTUP</span></td>
+      <td>45 days</td>
+      <td>1.0 hr</td>
+      <td>1. Automate the Boring Stuff<br>2. 50+ LeetCode Easy<br>3. Data analysis mini project</td>
+      <td>Automate the Boring Stuff + LeetCode + Corey Schafer</td>
+    </tr>
+    <tr>
+      <td>MATLAB Basics</td>
+      <td><span class="track-startup">STARTUP</span></td>
+      <td>45 days</td>
+      <td>0.5 hr</td>
+      <td>1. MATLAB Onramp<br>2. Plot signals (sine, square, impulse)<br>3. Apply to college math</td>
+      <td>MathWorks Onramp + MATLAB Central</td>
+    </tr>
+    <tr>
+      <td><b>Semester Project</b></td>
+      <td><span class="track-project">PROJECT</span></td>
+      <td>Weekends</td>
+      <td>0.5 hr</td>
+      <td><b>Digital Logic Simulator in Python</b> — build AND/OR/NOT gates, then full adder, then 4-bit ALU. Push to GitHub.</td>
+      <td>Self + GitHub</td>
+    </tr>
+  </table>
+
+  <p><b>GATE PYQ Count:</b> 50+ from Digital + Signals | <b>Math:</b> Continue daily — never stop.</p>
+
+  <div class="page-break"></div>
+
+  <h2>📕 Semester 3</h2>
+  <p><b>College subjects:</b> Network Theory, Analog Electronics, Digital Electronics, Machines (intro)</p>
+  <p><b>Self-study:</b> 5.5 hrs/day</p>
+
+  <table>
+    <tr>
+      <th>Skill</th>
+      <th>Track</th>
+      <th>Duration</th>
+      <th>Daily Hours</th>
+      <th>Steps</th>
+      <th>Source</th>
+    </tr>
+    <tr>
+      <td>Analog Electronics (Diodes, BJT, FET, Op-amps)</td>
+      <td><span class="track-gate">GATE</span></td>
+      <td>Ongoing</td>
+      <td>1.5 hrs</td>
+      <td>1. NPTEL Analog Electronics<br>2. Biasing, amplifiers, oscillators<br>3. 5 GATE PYQs daily</td>
+      <td>NPTEL + Sedra & Smith + GATE Academy</td>
+    </tr>
+    <tr>
+      <td>EMFT (Electrostatics, Magnetostatics, Transmission Lines)</td>
+      <td><span class="track-gate">GATE</span></td>
+      <td>Ongoing</td>
+      <td>1.5 hrs</td>
+      <td>1. NPTEL EMFT (IIT Madras)<br>2. Maxwell's equations, boundary conditions<br>3. 5 GATE PYQs daily</td>
+      <td>NPTEL + GATE Academy</td>
+    </tr>
+    <tr>
+      <td>Electrical & Electronic Measurements</td>
+      <td><span class="track-gate">GATE</span></td>
+      <td>Ongoing</td>
+      <td>0.5 hr</td>
+      <td>1. Bridges, instruments, errors<br>2. Formula memorization<br>3. 3 GATE PYQs daily</td>
+      <td>GATE Academy notes + Made Easy</td>
+    </tr>
+    <tr>
+      <td>Data Structures in C</td>
+      <td><span class="track-startup">STARTUP</span></td>
+      <td>45 days</td>
+      <td>1.0 hr</td>
+      <td>1. NPTEL DSA<br>2. Linked List, Stack, Queue, BST<br>3. Implement from scratch</td>
+      <td>NPTEL + GeeksforGeeks + LeetCode</td>
+    </tr>
+    <tr>
+      <td>Arduino / Embedded C Basics</td>
+      <td><span class="track-startup">STARTUP</span></td>
+      <td>45 days</td>
+      <td>0.5 hr</td>
+      <td>1. RandomNerdTutorials<br>2. Blink LED, read sensors<br>3. Understand registers & timers</td>
+      <td>RandomNerdTutorials + Arduino.cc</td>
+    </tr>
+    <tr>
+      <td><b>Semester Project</b></td>
+      <td><span class="track-project">PROJECT</span></td>
+      <td>Weekends</td>
+      <td>0.5 hr</td>
+      <td><b>Arduino-based Multimeter</b> — voltage/current measurement using ADC, display on LCD. Bridges Analog (GATE) + Embedded (Startup).</td>
+      <td>Self + GitHub + Tinkercad</td>
+    </tr>
+  </table>
+
+  <p><b>GATE PYQ Count:</b> 50+ from Analog + EMFT + Measurements | <b>EMFT is 5-6% of GATE.</b> Don't skip it.</p>
+
+  <div class="page-break"></div>
+
+  <h2>📘 Semester 4</h2>
+  <p><b>College subjects:</b> Electrical Machines, Power Systems, Control Systems, EMFT</p>
+  <p><b>Self-study:</b> 5.5 hrs/day</p>
+
+  <table>
+    <tr>
+      <th>Skill</th>
+      <th>Track</th>
+      <th>Duration</th>
+      <th>Daily Hours</th>
+      <th>Steps</th>
+      <th>Source</th>
+    </tr>
+    <tr>
+      <td>Electrical Machines (Transformers, DC, Induction, Synchronous)</td>
+      <td><span class="track-gate">GATE</span></td>
+      <td>Ongoing</td>
+      <td>1.5 hrs</td>
+      <td>1. NPTEL Electrical Machines<br>2. Equivalent circuits, torque-slip, regulation<br>3. 5 GATE PYQs daily</td>
+      <td>NPTEL + P.S. Bimbhra + GATE Academy</td>
+    </tr>
+    <tr>
+      <td>Power Systems (Load Flow, Faults, Stability)</td>
+      <td><span class="track-gate">GATE</span></td>
+      <td>Ongoing</td>
+      <td>1.0 hr</td>
+      <td>1. NPTEL Power Systems<br>2. Y-bus, Z-bus, symmetrical components<br>3. 5 GATE PYQs daily</td>
+      <td>NPTEL + C.L. Wadhwa + GATE Academy</td>
+    </tr>
+    <tr>
+      <td>Control Systems (Time/Freq Response, Stability, PID)</td>
+      <td><span class="track-gate">GATE</span></td>
+      <td>Ongoing</td>
+      <td>1.0 hr</td>
+      <td>1. NPTEL Control Systems<br>2. Root locus, Bode, Nyquist<br>3. 5 GATE PYQs daily</td>
+      <td>NPTEL + Kuo + GATE Academy</td>
+    </tr>
+    <tr>
+      <td>MATLAB / Simulink</td>
+      <td><span class="track-startup">STARTUP</span></td>
+      <td>Ongoing</td>
+      <td>0.5 hr</td>
+      <td>1. Model machines in Simulink<br>2. Simulink Onramp<br>3. Control system simulation</td>
+      <td>MathWorks + Simulink Onramp</td>
+    </tr>
+    <tr>
+      <td>Git & GitHub</td>
+      <td><span class="track-startup">STARTUP</span></td>
+      <td>15 days</td>
+      <td>0.5 hr</td>
+      <td>1. GitHub Learning Lab<br>2. Push all projects<br>3. Branching, PRs, READMEs</td>
+      <td>GitHub Learning Lab + Traversy Media</td>
+    </tr>
+    <tr>
+      <td><b>Semester Project</b></td>
+      <td><span class="track-project">PROJECT</span></td>
+      <td>Weekends</td>
+      <td>0.5 hr</td>
+      <td><b>DC Motor PID Control in Simulink</b> — model DC motor, design PID, observe response. Connects Control Systems (GATE) + Simulink (Startup).</td>
+      <td>Self + GitHub + MATLAB</td>
+    </tr>
+  </table>
+
+  <p><b>GATE PYQ Count:</b> 100+ from Machines + Power Systems + Control | <b>Error notebook starts now.</b></p>
+
+  <div class="page-break"></div>
+
+  <h2>📗 Semester 5</h2>
+  <p><b>College subjects:</b> Power Electronics, Microprocessors, Communication</p>
+  <p><b>Self-study:</b> 5 hrs/day</p>
+
+  <table>
+    <tr>
+      <th>Skill</th>
+      <th>Track</th>
+      <th>Duration</th>
+      <th>Daily Hours</th>
+      <th>Steps</th>
+      <th>Source</th>
+    </tr>
+    <tr>
+      <td>Power Electronics (Rectifiers, Choppers, Inverters, SMPS)</td>
+      <td><span class="track-gate">GATE</span></td>
+      <td>Ongoing</td>
+      <td>1.5 hrs</td>
+      <td>1. NPTEL Power Electronics<br>2. Waveforms, duty cycle, harmonics<br>3. 5 GATE PYQs daily</td>
+      <td>NPTEL + Rashid + GATE Academy</td>
+    </tr>
+    <tr>
+      <td>GATE Subject-wise Previous Year Papers (All subjects)</td>
+      <td><span class="track-gate">GATE</span></td>
+      <td>Ongoing</td>
+      <td>1.5 hrs</td>
+      <td>1. Solve GATE EE 2000–2015 papers<br>2. Subject-wise grouping<br>3. Error notebook analysis</td>
+      <td>GATE papers + Made Easy solutions</td>
+    </tr>
+    <tr>
+      <td>IoT (ESP32, Sensors, MQTT)</td>
+      <td><span class="track-startup">STARTUP</span></td>
+      <td>45 days</td>
+      <td>1.0 hr</td>
+      <td>1. RandomNerdTutorials<br>2. WiFi, MQTT, sensor nodes<br>3. Energy monitoring setup</td>
+      <td>RandomNerdTutorials + Robu.in</td>
+    </tr>
+    <tr>
+      <td>Python Data Analysis (Pandas, NumPy)</td>
+      <td><span class="track-startup">STARTUP</span></td>
+      <td>45 days</td>
+      <td>0.5 hr</td>
+      <td>1. Kaggle Learn<br>2. Analyze energy dataset<br>3. Visualization with Matplotlib</td>
+      <td>Kaggle Learn + Pandas docs + Keith Galli</td>
+    </tr>
+    <tr>
+      <td><b>Semester Project</b></td>
+      <td><span class="track-project">PROJECT</span></td>
+      <td>Weekends</td>
+      <td>0.5 hr</td>
+      <td><b>IoT Energy Monitor + DC-DC Converter Sim</b> — ESP32 reads voltage/current, sends to MQTT broker. Simulink models buck converter. Bridges Power Electronics (GATE) + IoT (Startup).</td>
+      <td>Self + GitHub + Simulink</td>
+    </tr>
+  </table>
+
+  <p><b>GATE PYQ Count:</b> Complete all 2000–2015 papers subject-wise | <b>Join Made Easy / ACE test series.</b></p>
+
+  <div class="page-break"></div>
+
+  <h2>📙 Semester 6</h2>
+  <p><b>College subjects:</b> HVDC, Renewable, Protection, Utilization</p>
+  <p><b>Self-study:</b> 5 hrs/day</p>
+
+  <table>
+    <tr>
+      <th>Skill</th>
+      <th>Track</th>
+      <th>Duration</th>
+      <th>Daily Hours</th>
+      <th>Steps</th>
+      <th>Source</th>
+    </tr>
+    <tr>
+      <td>Full Syllabus Revision (Weak topics)</td>
+      <td><span class="track-gate">GATE</span></td>
+      <td>Ongoing</td>
+      <td>1.5 hrs</td>
+      <td>1. Revise notes + formulas<br>2. Focus on weak areas from error notebook<br>3. Short notes creation</td>
+      <td>Self notes + NPTEL</td>
+    </tr>
+    <tr>
+      <td>Full-length Mock Tests (Every Sunday)</td>
+      <td><span class="track-gate">GATE</span></td>
+      <td>Ongoing</td>
+      <td>3.0 hrs (Sun)</td>
+      <td>1. 3-hour timed test<br>2. 3-hour error analysis<br>3. Track rank progression</td>
+      <td>Made Easy / ACE test series</td>
+    </tr>
+    <tr>
+      <td>EV Basics (Powertrain, BMS)</td>
+      <td><span class="track-startup">STARTUP</span></td>
+      <td>45 days</td>
+      <td>1.0 hr</td>
+      <td>1. NPTEL Electric Vehicles<br>2. Model EV powertrain in Simulink<br>3. Study BMS basics</td>
+      <td>NPTEL EV + MATLAB/Simulink</td>
+    </tr>
+    <tr>
+      <td>Renewable Energy (Solar, Wind)</td>
+      <td><span class="track-startup">STARTUP</span></td>
+      <td>45 days</td>
+      <td>0.5 hr</td>
+      <td>1. NPTEL Solar Energy<br>2. PV cell modeling<br>3. MPPT basics</td>
+      <td>NPTEL Solar + PVsyst + NREL</td>
+    </tr>
+    <tr>
+      <td><b>Major Project Phase 1</b></td>
+      <td><span class="track-project">PROJECT</span></td>
+      <td>90 days</td>
+      <td>2.0 hrs</td>
+      <td><b>EV/Battery related project</b> — Identify real-world problem. Literature review (IEEE Xplore). Simulation/Design phase. Use Simulink + Arduino.</td>
+      <td>IEEE Xplore + Google Scholar + ResearchGate</td>
+    </tr>
+  </table>
+
+  <p><b>Mock Test Target:</b> 15+ full mocks. Rank consistently under 500 in test series.</p>
+
+  <div class="page-break"></div>
+
+  <h2>📕 Semester 7 — GATE WAR MODE</h2>
+  <p><b>July → February (GATE exam month)</b></p>
+  <p><b>This is full war mode. College is secondary.</b></p>
+
+  <table>
+    <tr>
+      <th>Time Block</th>
+      <th>Activity</th>
+      <th>Track</th>
+    </tr>
+    <tr>
+      <td>5:00 AM – 8:00 AM</td>
+      <td>Revision of notes + formulas (Math, Circuits, Machines, Power Electronics)</td>
+      <td><span class="track-gate">GATE</span></td>
+    </tr>
+    <tr>
+      <td>9:00 AM – 4:00 PM</td>
+      <td>College (attend only mandatory, skip non-essential)</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>5:00 PM – 8:00 PM</td>
+      <td>Subject-wise revision + problem solving (weak topics from error notebook)</td>
+      <td><span class="track-gate">GATE</span></td>
+    </tr>
+    <tr>
+      <td>9:00 PM – 11:00 PM</td>
+      <td>Mock test analysis (alternate days) / Weak topic drill</td>
+      <td><span class="track-gate">GATE</span></td>
+    </tr>
+    <tr>
+      <td>Sunday</td>
+      <td>Full mock test (3 hrs) + 3 hours error analysis</td>
+      <td><span class="track-gate">GATE</span></td>
+    </tr>
+  </table>
+
+  <h3>Semester 7 Skills</h3>
+  <table>
+    <tr>
+      <th>Skill</th>
+      <th>Priority</th>
+      <th>Daily Hours</th>
+      <th>Steps</th>
+      <th>Source</th>
+    </tr>
+    <tr>
+      <td>GATE Full Revision + Mock Tests</td>
+      <td class="priority-high">🔴 High</td>
+      <td>6–7 hrs</td>
+      <td>1. Revise all subjects<br>2. 40+ full mocks<br>3. Error notebook final pass</td>
+      <td>Made Easy / ACE + Self notes</td>
+    </tr>
+    <tr>
+      <td>Major Project Phase 2</td>
+      <td class="priority-high">🔴 High</td>
+      <td>1–2 hrs</td>
+      <td>1. Hardware implementation<br>2. Testing and debugging<br>3. Documentation</td>
+      <td>College lab + Project guide</td>
+    </tr>
+    <tr>
+      <td>Industrial Training</td>
+      <td class="priority-med">🟡 Medium</td>
+      <td>—</td>
+      <td>Defer to summer AFTER GATE. Focus on GATE now.</td>
+      <td>—</td>
+    </tr>
+  </table>
+
+  <p><b>Target:</b> 40+ full mocks. AIR under 500. <b>Do NOT take industrial training now.</b> Summer after GATE.</p>
+
+  <div class="page-break"></div>
+
+  <h2>📘 Semester 8 — The Reward</h2>
+  <p><b>GATE is done. Now M.Tech + startup prep.</b></p>
+
+  <table>
+    <tr>
+      <th>Skill</th>
+      <th>Priority</th>
+      <th>Duration</th>
+      <th>Daily Hours</th>
+      <th>Steps</th>
+      <th>Source</th>
+    </tr>
+    <tr>
+      <td>M.Tech Admissions (COAP)</td>
+      <td class="priority-high">🔴 High</td>
+      <td>Ongoing</td>
+      <td>2 hrs</td>
+      <td>1. Register on COAP<br>2. Fill choices (IIT B, M, K, Kgp, R)<br>3. Prepare for M.Tech interviews</td>
+      <td>COAP portal + IIT websites</td>
+    </tr>
+    <tr>
+      <td>Project Completion</td>
+      <td class="priority-high">🔴 High</td>
+      <td>60 days</td>
+      <td>3 hrs</td>
+      <td>1. Final testing<br>2. Write thesis in LaTeX<br>3. Prepare presentation</td>
+      <td>Overleaf + College format + IEEE template</td>
+    </tr>
+    <tr>
+      <td>Interview Prep</td>
+      <td class="priority-high">🔴 High</td>
+      <td>45 days</td>
+      <td>1.5 hrs</td>
+      <td>1. Revise core subjects daily<br>2. Mock interviews with friends<br>3. Explain your projects clearly</td>
+      <td>GeeksforGeeks + Self notes</td>
+    </tr>
+    <tr>
+      <td>Placement Readiness (Backup)</td>
+      <td class="priority-med">🟡 Medium</td>
+      <td>Ongoing</td>
+      <td>1 hr</td>
+      <td>1. Daily aptitude practice<br>2. GD prep<br>3. HR interview answers</td>
+      <td>Indiabix + PrepInsta + InterviewBit</td>
+    </tr>
+  </table>
+
+  <p><b>Target IITs:</b> IIT Bombay (Power Electronics), IIT Madras (Energy Systems), IIT Kanpur (Drives), IIT Kharagpur (Power Electronics). <b>Target rank:</b> Under 500.</p>
+
+  <div class="page-break"></div>
+
+  <h2>📊 GATE EE Subject Weightage (Know Your Battlefield)</h2>
+  <table>
+    <tr><th>Subject</th><th>Weightage</th><th>When You Start</th></tr>
+    <tr><td>Engineering Mathematics</td><td>~15%</td><td>Pre-Sem 1</td></tr>
+    <tr><td>Electric Circuits</td><td>~12%</td><td>Pre-Sem 1</td></tr>
+    <tr><td>Signals & Systems</td><td>~8%</td><td>Sem 2</td></tr>
+    <tr><td>Digital Electronics</td><td>~8%</td><td>Sem 2</td></tr>
+    <tr><td>Analog Electronics</td><td>~8%</td><td>Sem 3</td></tr>
+    <tr><td>Electromagnetic Fields</td><td>~5-6%</td><td>Sem 3</td></tr>
+    <tr><td>Electrical & Electronic Measurements</td><td>~4-5%</td><td>Sem 3</td></tr>
+    <tr><td>Electrical Machines</td><td>~12%</td><td>Sem 4</td></tr>
+    <tr><td>Power Systems</td><td>~10%</td><td>Sem 4</td></tr>
+    <tr><td>Control Systems</td><td>~8%</td><td>Sem 4</td></tr>
+    <tr><td>Power Electronics</td><td>~8%</td><td>Sem 5</td></tr>
+    <tr><td>General Aptitude</td><td>~15%</td><td>Sem 6 (light)</td></tr>
+  </table>
+
+  <div class="tips">
+    <h3>💡 General Tips for the Grind</h3>
+    <ol>
+      <li><span class="priority-high">🔴 Prioritize GATE subjects first</span> — they are your ticket to IIT M.Tech.</li>
+      <li><span class="priority-med">🟡 Startup skills second</span> — they differentiate you in M.Tech interviews and build your startup portfolio.</li>
+      <li><span class="priority-low">🟢 Projects bridge both</span> — every project should use GATE knowledge + startup tools.</li>
+      <li><b>Consistency beats intensity</b> — 5 hours daily for 4 years beats 12-hour cram sessions.</li>
+      <li><b>Build a portfolio</b> — Maintain a GitHub repository + blog documenting every project.</li>
+      <li><b>Use NPTEL heavily</b> — Free, taught by IIT professors, GATE-relevant.</li>
+      <li><b>Previous year papers are king</b> — Solve every GATE EE paper from 2000 to 2025. Twice.</li>
+      <li><b>Competitions</b> — e-Yantra (IIT Bombay), Smart India Hackathon, TI Innovation Challenge.</li>
+      <li><b>Buy components smartly</b> — Robu.in, Amazon, Element14, JLCPCB for PCBs.</li>
+      <li><b>Never skip Math</b> — 15% weightage. Do it daily from Day 1.</li>
+    </ol>
+  </div>
+
+  <div class="warning">
+    <h3>⚠️ The Brutal Truth</h3>
+    <p>This schedule is <b>tight</b>. You will miss parties, festivals, some college events. Your friends will call you boring.</p>
+    <p>But from a <b>Tier 2/3 college</b>, this is the <b>only path</b> to an IIT M.Tech + a startup-ready skillset. There are no shortcuts.</p>
+    <p><b>4 years of consistency = AIR 100–500. Slack off in Sem 1 or 2 = scrambling in Sem 7 like everyone else.</b></p>
+  </div>
+
+  <footer>
+    <p>Made with ⚡ by Lokesh Wadgaonkar | GATE EE → IIT M.Tech → EV/Energy Startup</p>
+    <p>"Consistency beats intensity. Momentum > speed."</p>
+  </footer>
+
+</body>
+</html>
